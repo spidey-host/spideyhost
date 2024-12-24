@@ -3,7 +3,7 @@ import { FiMessageCircle } from 'react-icons/fi'; // Chat-related icon
 
 const WhatsAppChat = () => {
   const [isVisible, setIsVisible] = useState(false);
-  const phoneNumber = "9824602974"; // Replace with your WhatsApp number
+  const phoneNumber = "XXXXX"; // Replace with your WhatsApp number
   const message = "Hi Spidey Host Team! 🌟 I'm looking for assistance with your services. Can you help me find the best plan for my needs? Thank you!";
 
   const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
