@@ -92,7 +92,7 @@ const Navbar = () => {
               ref={dropdownRef}
             >
               <a
-                href="/shared-hosting"
+                href="#/shared-hosting"
                 className="block px-4 py-3 text-[#4E54C8] hover:bg-gray-100 flex items-center space-x-4 rounded-md font-semibold"
               >
                 <FaUsers className="h-6 w-6 text-[#4E54C8] shadow-md" />
@@ -102,7 +102,7 @@ const Navbar = () => {
                 </div>
               </a>
               <a
-                href="/cloud-hosting"
+                href="#/cloud-hosting"
                 className="block px-4 py-3 text-[#FD71AF] hover:bg-gray-100 flex items-center space-x-4 rounded-md font-semibold"
               >
                 <FaCloud className="h-6 w-6 text-[#FD71AF] shadow-md" />
@@ -112,7 +112,7 @@ const Navbar = () => {
                 </div>
               </a>
               <a
-                href="/vps-hosting"
+                href="#/vps-hosting"
                 className="block px-4 py-3 text-[#02B884] hover:bg-gray-100 flex items-center space-x-4 rounded-md font-semibold"
               >
                 <FaServer className="h-6 w-6 text-[#02B884] shadow-md" />
@@ -122,7 +122,7 @@ const Navbar = () => {
                 </div>
               </a>
               <a
-                href="/wordpress-hosting"
+                href="#/wordpress-hosting"
                 className="block px-4 py-3 text-[#292D34] hover:bg-gray-100 flex items-center space-x-4 rounded-md font-semibold"
               >
                 <FaWordpress className="h-6 w-6 text-[#292D34] shadow-md" />
@@ -134,7 +134,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          <a href="/domain" className="text-gray-800 font-semibold hover:text-[#6A6FD0]">
+          <a href="#/domain" className="text-gray-800 font-semibold hover:text-[#6A6FD0]">
             Domain
           </a>
           <a href="#" className="text-gray-800 font-semibold hover:text-[#6A6FD0]">
@@ -148,14 +148,14 @@ const Navbar = () => {
         {/* Sign In, Sign Up Buttons, and Mobile Toggle */}
         <div className="flex items-center space-x-4">
           <a
-            href="/signin"
+            href="#"
             className="bg-[#565AC3] text-white px-4 py-2 rounded font-semibold hover:bg-[#4E54C8] transform transition-transform duration-200 active:scale-95"
           >
             Client Area
           </a>
 
           <a
-            href="/signup"
+            href="#"
             className="bg-white text-gray-800 text-sm px-3 py-1 w-32 rounded font-semibold hover:text-[#565AC3] transform transition-transform duration-200 active:scale-95 hidden md:block"
           >
             Sign Up
@@ -182,13 +182,13 @@ const Navbar = () => {
           </div>
 
           <div className="mt-4 space-y-4">
-            <a href="/shared-hosting" className="block text-gray-800 font-semibold hover:text-[#6A6FD0]">
+            <a href="#/shared-hosting" className="block text-gray-800 font-semibold hover:text-[#6A6FD0]">
               Hosting
             </a>
-            <a href="/domain" className="block text-gray-800 font-semibold hover:text-[#6A6FD0]">
+            <a href="#/domain" className="block text-gray-800 font-semibold hover:text-[#6A6FD0]">
               Domain
             </a>
-            <a href="/#" className="block text-gray-800 font-semibold hover:text-[#6A6FD0]">
+            <a href="#" className="block text-gray-800 font-semibold hover:text-[#6A6FD0]">
               Help
             </a>
             <a href="https://blogs.spidey.host" className="block text-gray-800 font-semibold hover:text-[#6A6FD0]">
@@ -197,14 +197,14 @@ const Navbar = () => {
           </div>
           <div className="mt-6 flex flex-col space-y-2">
             <a
-              href="/signin"
+              href="#"
               className="bg-[#565AC3] text-white text-sm px-3 py-1 w-32 rounded font-semibold hover:bg-[#4E54C8] transform transition-transform duration-200 active:scale-95"
               onClick={() => setIsMenuOpen(false)}
             >
               Client Area
             </a>
             <a
-              href="/signup"
+              href="#"
               className="bg-white text-gray-800 text-sm px-3 py-1 w-32 rounded font-semibold hover:text-[#565AC3] transform transition-transform duration-200 active:scale-95"
               onClick={() => setIsMenuOpen(false)}
             >
