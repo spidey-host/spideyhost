@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.435de908.css",
+    "main.js": "/static/js/main.f999d888.js",
+    "static/media/cloud-hero.png": "/static/media/cloud-hero.fc77b08ee0eb42c45f1b.png",
+    "static/media/vps-hero.png": "/static/media/vps-hero.45fb63b5c8c7a457dc79.png",
+    "static/media/shared-hero.png": "/static/media/shared-hero.c95d014e484e429b9dea.png",
+    "static/media/wordpress-hero.png": "/static/media/wordpress-hero.3ef2bb3ce0804be1f5dc.png",
+    "static/media/hero.png": "/static/media/hero.b31e068f66737fb721e8.png",
+    "index.html": "/index.html",
+    "main.435de908.css.map": "/static/css/main.435de908.css.map",
+    "main.f999d888.js.map": "/static/js/main.f999d888.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.435de908.css",
+    "static/js/main.f999d888.js"
+  ]
+}
