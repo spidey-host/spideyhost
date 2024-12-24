@@ -1,0 +1,24 @@
+# Ignore build folder
+/build/
+
+# Ignore node_modules folder (if using Node.js)
+node_modules/
+
+# Ignore .env files (if any)
+.env
+
+# Ignore log files
+*.log
+
+# Ignore temporary files created by IDEs (e.g., VS Code, JetBrains)
+.vscode/
+.idea/
+
+# Ignore system files (e.g., macOS or Windows specific)
+.DS_Store
+Thumbs.db
+
+# Ignore other specific files (e.g., temporary or backup files)
+*.bak
+*.swp
+
